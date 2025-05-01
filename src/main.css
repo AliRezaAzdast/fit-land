@@ -25,5 +25,10 @@
     --color-secondary-700:#021526;
     --color-secondary-850:#010A13;
     --color-secondary-900:#01070D;
+}
 
+@layer components{
+    .my-container{
+        @apply max-w-285 mx-auto
+    }
 }
