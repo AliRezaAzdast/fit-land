@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: iransan;
-    src: url(../public/font/IranSan.ttf);
+    src: url(/font/IranSan.ttf);
 }
 
 @theme {

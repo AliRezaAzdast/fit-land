@@ -28,7 +28,7 @@ const Header = () => {
         <div className="my-container mt-10">
           <div className="flex items-center justify-between">
             <div className="flex flex-col w-[150px] gap-1">
-              <img src="./public/logo.png" className="h-full" alt="" />
+              <img src="/logo.png" className="h-full" alt="" />
               <p className="text-xs text-868686 font-bold">
                 فروشگاه لوازم ورزشی فیت‌لند
               </p>
@@ -313,7 +313,7 @@ const Header = () => {
       {/* mobile header */}
       <div className="my-container lg:hidden block mt-2">
         <div className="flex justify-between items-center">
-          <img src="./public/logo-mobile.png" className="h-7 w-[81px]" alt="" />
+          <img src="/logo-mobile.png" className="h-7 w-[81px]" alt="" />
           <VscThreeBars onClick={openNav} className="w-6 h-6 " />
         </div>
         <form
@@ -334,7 +334,7 @@ const Header = () => {
           <div className="flex justify-between items-center w-full pb-3">
             <HiMiniXMark onClick={closeNav} className="h-6 w-6" />
             <img
-              src="./public/logo-mobile.png"
+              src="/logo-mobile.png"
               className="h-7 w-[81px]"
               alt=""
             />
