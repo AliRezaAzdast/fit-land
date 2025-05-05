@@ -7,16 +7,16 @@ const Hero = () => {
         <div className="flex justify-between">
           {/* right texts */}
           <div className="flex flex-col w-[500px]">
-            <span className="font-bold text-[#606060]">
+            <span className="font-bold text-[8px] sm:text-[10px] lg:text-base text-[#606060]">
               راحت و مطمئن خرید کنید!
             </span>
-            <h3 className="font-bold text-secondary text-2xl xl:text-[32px] mt-3">
+            <h3 className="font-bold text-secondary text-sm sm:text-lg lg:text-[32px] mt-3">
               همراه تو در مسیر سلامتی
             </h3>
-            <h2 className="text-primary font-bold text-2xl xl:text-[32px] mt-3">
+            <h2 className="text-primary font-bold text-sm sm:text-lg lg:text-[32px] mt-3">
               سهم بزرگ خودتان را امروز بگیرید!
             </h2>
-            <p className="font-bold text-[#606060] mt-3">
+            <p className="font-bold text-[8px] sm:text-[10px] lg:text-base text-[#606060] mt-3">
               بزرگترین حراج فصل فیت لند همین حالا شرع کن و محصولات با یه تخفیف
               شگفت انگیز بخر!
             </p>
@@ -41,13 +41,13 @@ const Hero = () => {
                   fill="white"
                 />
               </svg>
-              <span className="font-bold">مشاهده محصولات</span>
+              <span className="font-bold text-sm lg:text-base">مشاهده محصولات</span>
             </button>
           </div>
           {/* man imgae */}
-          <img src="/img/hero-section-man.png" className="z-10" alt="" />
+          <img src="/img/hero-section-man.png" className="z-10 h-[200px] md:h-[400px] lg:h-auto" alt="" />
           {/* left svg texts */}
-          <div className="flex flex-col gap-10 justify-center">
+          <div className="hidden lg:flex flex-col gap-10 justify-center">
             <div className="flex gap-3">
               <div className="bg-secondary-0 p-4 rounded-2xl">
                 <svg
@@ -171,7 +171,7 @@ const Hero = () => {
       </div>
       {/* under image banner */}
       <div className="-mt-25">
-        <img src="/img/hero-section-banner.png" className="w-full object-fill origin-center h-[106px]" alt="" />
+        <img src="/img/hero-section-banner.png" className="lg:block hidden w-full object-fill origin-center h-[106px]" alt="" />
       </div>
     </section>
   );

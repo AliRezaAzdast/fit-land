@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+import NewProducts from "./components/NewProducts"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
    <>
     <Header/>
     <Hero/>
+    <NewProducts/>
    </>
   )
 }
