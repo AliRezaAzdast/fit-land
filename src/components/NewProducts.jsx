@@ -5,7 +5,7 @@ const NewProducts = () => {
     <section id="newproducts" className="mt-20">
       <div className="my-container">
         <div className="flex justify-between items-end gap-6">
-          <div className="flex flex-col justify-end bg-[url(/public/img/newproducts/1.png)] w-45 md:w-[300px] lg:w-[392px] h-[225px] md:h-[462px] bg-center bg-cover rounded-2xl">
+          <div className="flex flex-col justify-end bg-[url(/img/newproducts/1.png)] w-45 md:w-[300px] lg:w-[392px] h-[225px] md:h-[462px] bg-center bg-cover rounded-2xl">
             <div className="flex flex-col justify-center bg-secondary-700 p-2 w-45 md:w-[300px] lg:w-[392px] h-[83px] md:h-[193px] new-product-clip rounded-2xl">
               <p className="text-white mt-8 text-[10px] md:text-lg">
                 جدید ترین تخفیفات فصل برند پوما
@@ -16,7 +16,7 @@ const NewProducts = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col justify-end bg-[url(/public/img/newproducts/2.png)] w-45 md:w-[300px] lg:w-[392px] h-[225px] md:h-[462px] bg-center bg-cover rounded-2xl">
+          <div className="flex flex-col justify-end bg-[url(/img/newproducts/2.png)] w-45 md:w-[300px] lg:w-[392px] h-[225px] md:h-[462px] bg-center bg-cover rounded-2xl">
             <div className="flex flex-col justify-center bg-secondary-700 p-2 w-45 md:w-[300px] lg:w-[392px] h-[83px] md:h-[193px] new-product-clip rounded-2xl">
               <p className="text-white mt-8 text-[10px] md:text-lg">
                 جدید ترین تخفیفات فصل برند پوما
