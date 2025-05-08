@@ -2,6 +2,7 @@ import Banner1 from "./components/Banner1"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import NewProducts from "./components/NewProducts"
+import NewProducts2 from "./components/NewProducts2"
 import Off from "./components/Off"
 
 
@@ -15,6 +16,7 @@ function App() {
     <NewProducts/>
     <Banner1/>
     <Off/>
+    <NewProducts2/>
    </>
   )
 }
