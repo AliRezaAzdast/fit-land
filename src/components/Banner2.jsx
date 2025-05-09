@@ -1,12 +1,12 @@
 import React from "react";
 
-const Banner1 = () => {
+const Banner2 = () => {
   return (
-    <section id="banner1">
-      <div className="w-full h-50 md:h-100 lg:h-150 bg-cover bg-[url(./img/sections/girl-pink-bg.jpg)] bg-center">
+    <section id="banner2">
+      <div className="w-full h-50 md:h-100 lg:h-150 bg-cover bg-[url(./img/sections/green-bg-by.jpg)] bg-center">
         <div className="my-container flex flex-col h-full justify-center gap-3">
-            <p className="text-[10px] md:text-2xl text-secondary-900 font-medium">برای حال خوب</p>
-            <p className="text-[10px] md:text-2xl text-secondary-900 font-bold mb-5">وازم ایروبیک و تناسب اندام بگیر</p>
+            <p className="text-[10px] md:text-2xl text-secondary-900 font-medium">برای لذت بردن از مسیر</p>
+            <p className="text-[10px] md:text-2xl text-secondary-900 font-bold mb-5">دوچرخه، اسکیت و  اسکوتر بگیر</p>
             <button className="hidden md:flex items-center justify-center bg-secondary w-fit cursor-pointer text-white py-3 px-6 rounded-lg">
               <svg
                 width="25"
@@ -36,4 +36,4 @@ const Banner1 = () => {
   );
 };
 
-export default Banner1;
+export default Banner2;

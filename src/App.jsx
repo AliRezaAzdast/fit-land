@@ -1,4 +1,5 @@
 import Banner1 from "./components/Banner1"
+import Banner2 from "./components/Banner2"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import NewProducts from "./components/NewProducts"
@@ -17,6 +18,7 @@ function App() {
     <Banner1/>
     <Off/>
     <NewProducts2/>
+    <Banner2/>
    </>
   )
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 const NewProducts2 = () => {
   return (
-    <section className="mt-20">
+    <section id="newproduct2" className="mt-20">
       <div className="my-container">
         {/* titile */}
         <div className="flex justify-center">
