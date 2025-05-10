@@ -1,3 +1,4 @@
+import Aboutus from "./components/Aboutus"
 import Banner1 from "./components/Banner1"
 import Banner2 from "./components/Banner2"
 import Banner3 from "./components/Banner3"
@@ -6,6 +7,7 @@ import Hero from "./components/Hero"
 import NewProducts from "./components/NewProducts"
 import NewProducts2 from "./components/NewProducts2"
 import NewProducts3 from "./components/NewProducts3"
+import News from "./components/News"
 import Off from "./components/Off"
 import Off2 from "./components/Off2"
 
@@ -25,6 +27,8 @@ function App() {
     <Off2/>
     <NewProducts3/>
     <Banner3/>
+    <News/>
+    <Aboutus/>
    </>
   )
 }
